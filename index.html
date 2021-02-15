@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>-->
 </head>
 <body>
-<nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark pt-0 pb-0 fixed-top">
-    <a class="navbar-brand" href="#">Maria Paderina</a>
+<nav id="mainNavbar" class="navbar  navbar-expand-md navbar-dark pt-0 pb-0 fixed-top">
+    <a class="navbar-brand" href="#">Maria Filyushin</a>
     <button class="navbar-toggler"  data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,10 +47,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="scroll">Maria Paderina</h1>
+                <h1 class="scroll">Software Engineer</h1>
             </div>
             <di class="col-md-12">
-                <p id="occupation" class="scroll">DESIGNER  /DEVELOPER</p>
+                <!--                <p id="occupation" class="scroll"></p>-->
             </di>
         </div>
     </div>
@@ -58,118 +58,160 @@
 <div class="background-white">
     <div id="profile" class="container">
         <h2>Profile</h2>
-        <p class="lead">Hi! I am developer</p>
+        <p class="lead">Hi! I am Frontend Web/ReactJS / iOS Developer</p>
         <hr>
-        <div class="row contacts">
-            <div class=" col-md-4">
-                <img class="img-circle" src="images/maria.jpg">
+        <div class="profiles">
+            <div class="profile-image">
+                <img class="profile__artwork" src="images/maria-image.jpg">
             </div>
-            <div class=" col-md-4" data-aos="fade-left">
-                <h3>About me</h3>
-                <p class="info">
-                     I am junior software engineer with experience building Web and iOS/Swift applications. Would like to join energetic and passionated team to build more apps. I am quick learner, team player and like attention to details. I would love to learn more in collaborative environment.
+            <div class="profile">
+                <div class="title">
+                    <h2>About me</h2>
+                    <hr>
+                    <p>Frontend Web/ReactJS Developer | iOS Developer  ready to start applying learnings into practice. Would like to join energetic and passionated team to build more apps. I am quick learner, team player and like attention to details. I would love to learn more in collaborative environment.</p>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="title">
+                    <h2>Contacts</h2>
+                    <hr>
+                    <div>
+                    <i class="fab fa-github"></i><a href="https://github.com/mariapaderina">Github profile</a><br>
+                    <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/mpaderina/">Linkedin profile</a><br>
+                    <i class="fas fa-envelope"></i><a href="mailto:mariapaderina79@gmail.com">Send me an email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="background-grey">
+    <div id="skills" class="albums">
+        <div class="album">
+            <img class="album__artwork" src="./images/front-end.svg">
+            <div class="album__details">
+                <h2>Frontend</h2>
+                <p class="album__desc">React, React Hooks, React-Router, React-Redux, Redux Thunk, Redux Form</p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/javascript.svg">
+            <div class="album__details">
+                <p class="album__desc">JavaScript, HTML, CSS, Bootstrap, jQuery, NPM, EJS</p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/backend.svg">
+            <div class="album__details">
+                <h2>Backend</h2>
+                <p class="album__desc">NodeJS, Express </p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/database.svg">
+            <div class="album__details">
+                <h2>Database</h2>
+                <p class="album__desc">MongoDB,MySQL</p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/development.svg">
+            <div class="album__details">
+                <h2>Mobility</h2>
+                <p class="album__desc">iOS application development (Swift),  UIKit, CoreData, CoreML, Alamofire, SwiftyJSON
                 </p>
             </div>
-            <div  class=" col-md-4" data-aos="fade-left" style="padding-left: 50px">
-                <h3>Contacts</h3>
-                    <strong>Paderina Maria</strong>
-                    <br>
-                    <i  class="fab fa-github"></i><a href="https://github.com/mariapaderina">Github profile</a>
-                    <br>
-                    <i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/mpaderina/">Linkedin profile</a>
-                    <br>
-                    <i  class="fas fa-envelope"></i><a href="mailto:mariapaderina79@gmail.com">Send me an email</a>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/tools.svg">
+            <div class="album__details">
+                <p class="album__desc">Xcode, IntelliJ, Sublime Text, Postman
+                </p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/github.svg">
+            <div class="album__details">
+                <p class="album__desc">Version Control (Git, Github)
+                </p>
+            </div>
+        </div>
+        <div class="album">
+            <img class="album__artwork" src="./images/api.svg">
+            <div class="album__details">
+                <p class="album__desc">REST/JSON API, HTTP/HTTPS
+                </p>
             </div>
         </div>
     </div>
 </div>
-<div class="background-beige">
-    <div id="skills" class="container">
-        <h3>Skills</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="images/girl.svg" class="svg">
-            </div>
-            <div class="col-md-8 list_skills">
-                <ul id="element" class="slideshow">
-                    <li>Xcode, IntelliJ, Sublime Text, Postman, Version Control (Git, Github)</li>
-                    <li>MongoDB, Docker </li>
-                    <li>REST/JSON API, HTTP/HTTPS </li>
-                    <li>Dependency management: CocoaPods, SPM </li>
-                    <li>iOS Frameworks; UIKit, CoreData, CoreML, Alamofire, SwiftyJSON</li>
-                    <li>JavaScript, HTML, CSS, Bootstrap, jQuery, NPM, NodeJS, Express, EJS</li>
-                    <li>iOS application development (Swift)</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="background-beige">
-    <div id="experiences" class="container">
-        <hr>
-        <h3>Experience</h3>
-        <div class="experiences">
-            <div class="experience row">
-                <div class=" col-md-4">
-                    <p><strong>Jr Software Engineer, Freelance</strong></p>
-                    <p>Dec 2018 - Present
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <p>Creating iOS/macOS application using Swift, XCode and frameworks like UIkit, CoreData, CoreML, etc. Integration with REST/JSON API in iOS applications using SwiftyJSON, Alamofire, Realm, Firebase. Migrating iOS layout based applications to SwiftUI. Cocoapods and Swift Package Manager for dependencies management. </p>
-                    <p> Building frontend using JavaScript, HTML5, CSS3, Bootstrap, jQuery. Building backend using NodeJS, Express, EJS Templating and Mongoose for MongoDB as backend database. NPM dependency management for web projects.  Working with version control systems (Git, Github).</p>
-                    <p> Comfortable with MacOS, Bash, Terminal, Xcode, IDEA IntelliJ, Postman, Sublime Text. Basic experience with Docker containers for local development.</p>
-                </div>
-                <div class="col-md-4">
-                    <p><strong>Financial Analyst, LUKOIL, Tyumen, Russia</strong></p>
-                    <p>Dec 2016 - Nov 2018
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <p>Financial analysis, accounting, customer relationship, international contracts.
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <p><strong>FINACIAL CONTROLER, SBERBANK, TYUMEN, Russia</strong></p>
-                    <p>2001-2008
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <p>Currency control department, working on international contracts and regulation documentation.
-                    </p>
+    <div class="background-beige">
+        <div id="experiences" class="container">
+            <hr>
+            <h3>Experience</h3>
+            <div class="experiences">
+                <div class="experience row">
+                    <div class=" col-md-4">
+                        <p><strong>Software Engineer, Freelance</strong></p>
+                        <p>Dec 2018 - Present
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <p><img class="right_arrow" src="./images/right-arrow.svg">Building frontend using React, Redux (for managing app state),JavaScript, HTML5, CSS3, Bootstrap, jQuery
+                        </p>
+                        <p><img class="right_arrow" src="./images/right-arrow.svg"> Building REST API backend using NodeJS, Express, EJS Templating and Mongoose for MongoDB as backend database
+                        </p>
+                        <p><img class="right_arrow" src="./images/right-arrow.svg">Comfortable with MacOS, Bash, Terminal, Xcode, IDEA IntelliJ, Postman, Sublime Text. Basic experience with Docker containers for local development.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>Financial Analyst, LUKOIL, Tyumen, Russia</strong></p>
+                        <p>Dec 2016 - Nov 2018
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Financial analysis, accounting, customer relationship, international contracts.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><strong>FINACIAL CONTROLER, SBERBANK, TYUMEN, Russia</strong></p>
+                        <p>2001-2008
+                        </p>
+                    </div>
+                    <div class="col-md-8">
+                        <p>Currency control department, working on international contracts and regulation documentation.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <h3>Education</h3>
-        <hr>
-        <div class="experiences">
-            <div class="experience row">
-                <div class="col-md-3">
-                    <h6>Tyumen State Oil and Gas University, Tyumen, Russia — Specialist Degree</h6>
-                    <p>2002-2007</p>
-                </div>
-                <div class="col-md-3">
-                    <h6>The Complete iOS9 Auto Layout Course, Udemy, 2018
-                    </h6>
-                    <p>2018</p>
-                </div>
-                <div class="col-md-3">
-                    <h6>iOS 12 & Swift - The Complete iOS App Development Bootcamp, Udemy, 2018
-                    </h6>
-                    <p>2018-2019</p>
-                </div>
-                <div class="col-md-3">
-                    <h6>The Web Developer Bootcamp, Udemy, 2020
-                    </h6>
-                    <p>2019-2020</p>
+            <h3>Education</h3>
+            <hr>
+            <div class="experiences">
+                <div class="experience row">
+                    <div class="col-md-3">
+                        <h6>Tyumen State Oil and Gas University, Tyumen, Russia — Specialist Degree</h6>
+                        <p>2002-2007</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>The Complete iOS9 Auto Layout Course, Udemy, 2018
+                        </h6>
+                        <p>2018</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>iOS 12 & Swift - The Complete iOS App Development Bootcamp, Udemy, 2018
+                        </h6>
+                        <p>2018-2019</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>The Web Developer Bootcamp, Udemy, 2020
+                        </h6>
+                        <p>2019-2020</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init({
@@ -179,7 +221,7 @@
 </script>
 <script type="text/javascript" src="js/index.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
 
 </body>
 </html>
